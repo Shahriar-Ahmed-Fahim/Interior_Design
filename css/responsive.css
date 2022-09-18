@@ -1,0 +1,948 @@
+/* Extra Extra Large Devices are default */
+
+/* Extra Large Devices */
+@media screen and (max-width: 1399px){
+    .sec-header h2 {
+        margin-right: 100px;
+    }
+    /* ***************************************
+            HERO SECTION START
+    **************************************** */
+    #hero-sec .title{
+        margin-top: 80px;
+        margin-bottom: 60px;
+    }
+    /* ***************************************
+            HERO SECTION END
+    **************************************** */
+    /* ***************************************
+            BLOG SECTION START
+    **************************************** */
+    #blog-sec .blog-slider .blog-item {
+        padding: 0 1rem;
+    }
+    #blog-sec .blog-slider .slick-arrow{
+        top: calc(80%);
+    }
+
+    #blog-sec .blog-slider  .slick-arrow.prev-btn{
+        text-align: end;
+        left: 45%;
+        transform: translateX(-50%);
+    }
+
+    #blog-sec .blog-slider  .slick-arrow.next-btn{
+        text-align: start;
+        right: 45%;
+        transform: translateX(50%);
+    }
+    /* ***************************************
+            BLOG SECTION END
+    **************************************** */
+}
+
+/* Large Devices */
+@media screen and (max-width: 1199px){
+    #page-header{
+        padding: 180px 0 60px;
+    }
+    .sec-header h2 {
+        margin-right: 100px;
+    }
+    /* ***************************************
+            HERO SECTION START
+    **************************************** */
+    #hero-sec{
+        margin-top: -140px;
+    }
+    #hero-sec .title{
+        margin-top: 60px;
+        margin-bottom: 35px;
+    }
+
+    #hero-sec .feature .wrapper {
+        padding: 40px 30px;
+    }    
+    /* ***************************************
+            HERO SECTION END
+    **************************************** */
+
+    /* ***************************************
+            WHAT WE DO SECTION START
+    **************************************** */
+    #what-we-do-sec .row{
+        padding: 50px 0;
+    }
+    /* ***************************************
+            WHAT WE DO SECTION END
+    **************************************** */
+
+    /* ***************************************
+            CTA SECTION START
+    **************************************** */
+    #cta-sec .container-md{
+        padding: 50px 0;
+    }
+    /* ***************************************
+            CTA SECTION END
+    **************************************** */
+
+    /* ***************************************
+            DIRECTORS SECTION START
+    **************************************** */
+    #director-sec .director-info{
+        padding: 8px 25px;
+    }
+    /* ***************************************
+            DIRECTORS SECTION END
+    **************************************** */
+    
+    /* ***************************************
+            BLOG SECTION START
+    **************************************** */
+    #blog-sec .blog-slider .blog-item {
+        padding: 0 1rem;
+    }
+    #blog-sec .blog-slider .slick-arrow{
+        top: calc(80%);
+    }
+
+    #blog-sec .blog-slider  .slick-arrow.prev-btn{
+        text-align: end;
+        left: 45%;
+        transform: translateX(-50%);
+    }
+
+    #blog-sec .blog-slider  .slick-arrow.next-btn{
+        text-align: start;
+        right: 45%;
+        transform: translateX(50%);
+    }
+    /* ***************************************
+            BLOG SECTION END
+    **************************************** */
+
+    /* ***************************************
+            SERVICE SECTION START
+    **************************************** */
+    #service-sec .service-wrapper .service {
+        padding: 20px 25px;
+    }
+    /* ***************************************
+            SERVICE SECTION END
+    **************************************** */
+
+    /* ***************************************
+            PROCESS SECTION START
+    **************************************** */
+    #process-sec .process {
+        padding: 20px 15px;
+    }
+    /* ***************************************
+            PROCESS SECTION END
+    **************************************** */
+}
+
+/* Medium Devices */
+@media screen and (max-width: 991px){
+    #page-header{
+        margin-top: 0px;
+        padding: 110px 0 60px;
+    }
+    .sec-header h2 {
+        margin-right: 0px;
+    }
+
+
+    /* ***************************************
+            HEADER SECTION START
+    **************************************** */
+    nav .nav-item + .nav-item {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    nav .nav-link::after{
+        content: none;
+    }
+    nav.navbar-expand-lg .navbar-nav .nav-link{
+        padding: 10px 20px;
+    }
+    nav.navbar-expand-lg .navbar-nav .nav-link.active, nav .navbar-nav .nav-link:hover {
+        background-color: #FBA442;
+    }
+    /* ***************************************
+            HEADER SECTION END
+    **************************************** */
+
+    /* ***************************************
+            HERO SECTION START
+    **************************************** */
+    #hero-sec{
+        margin-top: 0px;
+    }
+
+    #hero-sec .title h3{
+        font-size: 45px;
+        line-height: 60px;
+    }
+
+    #hero-sec .title{
+        margin-top: 0px;
+        margin-bottom: 70px;
+    }
+
+    #hero-sec .feature .wrapper {
+        padding: 20px 30px;
+    }    
+    /* ***************************************
+            HERO SECTION END
+    **************************************** */
+
+    /* ***************************************
+            WHAT WE DO SECTION START
+    **************************************** */
+    #what-we-do-sec .row{
+        padding: 50px 0;
+    }
+    /* ***************************************
+            WHAT WE DO SECTION END
+    **************************************** */
+
+    /* ***************************************
+            CTA SECTION START
+    **************************************** */
+    #cta-sec .container-md{
+        padding: 30px;
+    }
+    /* ***************************************
+            CTA SECTION END
+    **************************************** */
+
+    /* ***************************************
+            DIRECTORS SECTION START
+    **************************************** */
+    #director-sec{
+        margin-top: 90px;
+    }
+
+    #director-sec .director-info{
+        padding: 8px 20px;
+    }
+
+    #director-sec .director-info .name{
+        font-size: 25px;
+        line-height: 40px;
+    }
+    
+    #director-sec .director-info .designation{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    /* ***************************************
+            DIRECTORS SECTION END
+    **************************************** */
+
+    /* ***************************************
+            PROJECT SECTION START
+    **************************************** */
+    #project-sec{
+        margin-top: 90px;
+    }
+    /* ***************************************
+            PROJECT SECTION END
+    **************************************** */
+
+    /* ***************************************
+            TESTIMONY SECTION START
+    **************************************** */
+    #testimony-sec{
+        margin-top: 90px;
+    }
+
+    #testimony-sec .review-wrapper .review-inner{
+        padding: 10px 35px;
+    }
+    /* ***************************************
+            TESTIMONY SECTION END
+    **************************************** */
+
+    /* ***************************************
+            BLOG SECTION START
+    **************************************** */
+    #blog-sec{
+        margin-top: 90px;
+    }
+
+    #blog-sec .blog-slider .blog-item {
+        padding: 0 4rem;
+    }
+
+    #blog-sec .blog-slider .slick-arrow{
+        top: calc(80%);
+    }
+
+    #blog-sec .blog-slider  .slick-arrow.prev-btn{
+        text-align: end;
+        left: 45%;
+        transform: translateX(-50%);
+    }
+
+    #blog-sec .blog-slider  .slick-arrow.next-btn{
+        text-align: start;
+        right: 45%;
+        transform: translateX(50%);
+    }
+    /* ***************************************
+            BLOG SECTION END
+    **************************************** */
+
+    /* ***************************************
+            ABOUT SECTION START
+    **************************************** */
+    #about-sec{
+        padding-top: 90px;
+        overflow-x: hidden;
+    }
+
+    #about-sec .row + .row{
+        padding-top: 80px;
+    }
+    /* ***************************************
+            ABOUT SECTION END
+    **************************************** */
+
+    /* ***************************************
+            FEATURES SECTION START
+    **************************************** */
+    #feature-sec{
+        margin-top: 90px;
+    }
+
+    #feature-sec .feature{
+        margin-top: 25px;
+        box-shadow: 0px 0px 1px 1px rgba(0,0,0,1);
+    }
+    /* ***************************************
+            FEATURES SECTION END
+    **************************************** */
+
+    /* ***************************************
+            PROCESS SECTION START
+    **************************************** */
+    #process-sec{
+        margin-top: 90px;
+    }
+    /* ***************************************
+            PROCESS SECTION END
+    **************************************** */
+
+    /* ***************************************
+            SHOWCASE SECTION START
+    **************************************** */
+    #showcase-sec{
+        margin-top: 90px;
+    }
+    /* ***************************************
+            SHOWCASE SECTION END
+    **************************************** */
+
+    /* ***************************************
+        BLOG-ARCHIVE SECTION START
+    **************************************** */
+    #blgo-archive-sec .blog-wrapper.blog-focus p + p{
+        display: none;
+    }
+    #blgo-archive-sec .blog-wrapper .content:not(#blgo-archive-sec .blog-focus .content){
+        padding: 10px 12px 15px
+    }
+    /* ***************************************
+            BLOG-ARCHIVE SECTION END
+    **************************************** */
+}
+
+/* Small Devices */
+@media screen and (max-width: 767px){
+    #page-header{
+        padding: 100px 0 60px;
+    }
+    
+    .sec-header h2{
+        margin-right: 0px;
+    }
+
+    p.text + p.text{
+        margin-top: 20px;
+    }
+
+    /* ***************************************
+            HERO SECTION START
+    **************************************** */
+    #hero-sec{
+        margin-top: 0px;
+        padding-top: 120px;
+    }
+
+    #hero-sec > .container-lg > .row{
+        margin-top: 20px;
+    }
+    
+    #hero-sec .title{
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+    
+    #hero-sec .title h3{
+        font-size: 30px;
+        line-height: 43px;
+    }
+
+    #hero-sec .feature .wrapper {
+        padding: 25px;
+    }
+    /* ***************************************
+            HERO SECTION END
+    **************************************** */
+
+    /* ***************************************
+            WHAT WE DO SECTION START
+    **************************************** */
+    #what-we-do-sec .row{
+        padding: 25px 0;
+    }
+    /* ***************************************
+            WHAT WE DO SECTION END
+    **************************************** */
+
+    /* ***************************************
+            CTA SECTION START
+    **************************************** */
+    #cta-sec .container-md{
+        padding: 50px;
+    }
+    /* ***************************************
+            CTA SECTION END
+    **************************************** */
+
+    /* ***************************************
+            DIRECTORS SECTION START
+    **************************************** */
+    #director-sec{
+        margin-top: 70px;
+    }
+
+    #director-sec .row + .row {
+        margin-top: 25px;
+    }
+
+    #director-sec .director-info{
+        transform: translateY(-50%);
+        padding: 8px 20px;
+    }
+
+    #director-sec .director-info .name{
+        font-size: 25px;
+        line-height: 40px;
+    }
+    
+    #director-sec .director-info .designation{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    /* ***************************************
+            DIRECTORS SECTION END
+    **************************************** */
+
+    /* ***************************************
+            PROJECT SECTION START
+    **************************************** */
+    #project-sec{
+        margin-top: 70px;
+    }
+    /* ***************************************
+            PROJECT SECTION END
+    **************************************** */
+
+    /* ***************************************
+            TESTIMONY SECTION START
+    **************************************** */
+    #testimony-sec{
+        margin-top: 70px;
+    }
+
+    #testimony-sec .review-wrapper .review-inner{
+        padding: 10px 15px;
+    }
+
+    #testimony-sec .review{
+        margin: 6px 0;
+    }
+    /* ***************************************
+            TESTIMONY SECTION END
+    **************************************** */
+
+    /* ***************************************
+            BLOG SECTION START
+    **************************************** */
+    #blog-sec{
+        margin-top: 70px;
+    }
+
+    #blog-sec .blog-slider .blog-item{
+        padding: 0 1rem;
+    }
+
+    #blog-sec .content{
+        margin-left: 0%;
+        margin-right: 0%;
+        transform: translateY(-20%);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    #blog-sec .blog-slider .slick-arrow{
+        top: calc(100%);
+    }
+
+    #blog-sec .blog-slider  .slick-arrow.prev-btn{
+        text-align: end;
+        left: 45%;
+        transform: translateX(-50%);
+    }
+
+    #blog-sec .blog-slider  .slick-arrow.next-btn{
+        text-align: start;
+        right: 45%;
+        transform: translateX(50%);
+    }
+    /* ***************************************
+            BLOG SECTION END
+    **************************************** */
+
+    /* ***************************************
+            ABOUT SECTION START
+    **************************************** */
+    #about-sec{
+        padding-top: 70px;
+        overflow-x: hidden;
+    }
+
+    #about-sec .row + .row{
+        padding-top: 80px;
+    }
+    /* ***************************************
+            ABOUT SECTION END
+    **************************************** */
+
+    /* ***************************************
+            FEATURES SECTION START
+    **************************************** */
+    #feature-sec{
+        margin-top: 70px;
+    }
+
+    #feature-sec .feature{
+        margin-top: 25px;
+        box-shadow: 0px 0px 1px 1px rgba(0,0,0,1);
+    }
+    /* ***************************************
+            FEATURES SECTION END
+    **************************************** */
+
+    /* ***************************************
+            SERVICE SECTION START
+    **************************************** */
+    #service-sec .service-wrapper .service{
+        padding: 20px 20px;
+    }
+
+    #service-sec .service-wrapper .service h3{
+        margin: 12px 0 8px;
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    #service-sec .service-wrapper .service p{
+        line-height: 28px;
+    }
+    /* ***************************************
+            SERVICE SECTION END
+    **************************************** */
+
+    /* ***************************************
+            PROCESS SECTION START
+    **************************************** */
+    #process-sec{
+        margin-top: 70px;
+        padding: 36px 0;
+    }
+    /* ***************************************
+            PROCESS SECTION END
+    **************************************** */
+
+    /* ***************************************
+            SHOWCASE SECTION START
+    **************************************** */
+    #showcase-sec{
+        margin-top: 70px;
+    }
+    /* ***************************************
+            SHOWCASE SECTION END
+    **************************************** */
+
+    /* ***************************************
+        BLOG-ARCHIVE SECTION START
+    **************************************** */
+
+    #blgo-archive-sec .blog-wrapper h3{
+        line-height: 20px;
+    }
+
+    #blgo-archive-sec .blog-wrapper .content:not(#blgo-archive-sec .blog-focus .content){
+        padding: 10px 12px 15px
+    }
+
+    /* ***************************************
+            BLOG-ARCHIVE SECTION END
+    **************************************** */
+
+}
+
+/* Extra Small Devices */
+@media screen and (max-width: 575px){
+    :root{    
+    
+        --font-sm: 12px;
+        --font-regular : 14px;
+        --font-mid: 16px;
+        --font-sec-title: 30px;
+        --font-page-title: 50px;
+    
+    }
+
+    #page-header{
+        padding: 70px 0 40px;
+    }
+
+    .sec-header h3{
+        line-height: 25px;
+    }
+    
+    .sec-header h2{
+        margin-right: 0px;
+    }
+    
+    .sec-header p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    
+    p.text{
+        line-height: 22px;
+    }
+    
+    p.text + p.text{
+        margin-top: 20px;
+    }
+
+    a.learn-more{
+        margin-top: 15px;
+    }
+
+    /* ***************************************
+            HERO SECTION START
+    **************************************** */
+    #hero-sec{
+        margin-top: 0px;
+        padding-top: 100px;
+    }
+
+    #hero-sec > .container-lg > .row{
+        margin-top: 20px;
+    }
+    
+    #hero-sec .title{
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+    
+    #hero-sec .title h3{
+        font-size: 30px;
+        line-height: 43px;
+    }
+    
+    #hero-sec .feature + .feature{
+        margin-top: 20px;
+    }
+
+    #hero-sec .feature .wrapper{
+        padding: 15px 20px;
+    }
+    /* ***************************************
+            HERO SECTION END
+    **************************************** */
+
+    /* ***************************************
+            WHAT WE DO SECTION START
+    **************************************** */
+    #what-we-do-sec .row{
+        padding: 25px 0;
+    }
+    /* ***************************************
+            WHAT WE DO SECTION END
+    **************************************** */
+
+    /* ***************************************
+            CTA SECTION START
+    **************************************** */
+    #cta-sec .container-md{
+        padding: 30px;
+    }
+
+    #cta-sec .wrapper{
+        padding: 15px 10px;
+    }
+
+    /* ***************************************
+            CTA SECTION END
+    **************************************** */
+
+    /* ***************************************
+            DIRECTORS SECTION START
+    **************************************** */
+    #director-sec{
+        margin-top: 30px;
+    }
+
+    #director-sec .row + .row{
+        margin-top: 20px;
+    }
+
+    #director-sec .director-info{
+        transform: translateY(-50%);
+        padding: 8px 20px;
+    }
+
+    /* ***************************************
+            DIRECTORS SECTION END
+    **************************************** */
+
+    /* ***************************************
+            PROJECT SECTION START
+    **************************************** */
+    #project-sec{
+        margin-top: 30px;
+    }
+    /* ***************************************
+            PROJECT SECTION END
+    **************************************** */
+
+    /* ***************************************
+            TESTIMONY SECTION START
+    **************************************** */
+    #testimony-sec{
+        margin-top: 30px;
+    }
+
+    #testimony-sec .review-wrapper .review-inner{
+        padding: 10px 15px;
+    }
+
+    #testimony-sec .review{
+        margin: 6px 0;
+        line-height: 20px;
+    }
+
+    #testimony-sec .reviewer-name{
+        font-size: 22px;
+        line-height: 37px;
+        margin-bottom: 15px;
+    }
+
+    #testimony-sec .testimony-slider-wrapper::before{
+        transform: translateY(-50%);
+        font-size: 50px;
+    }
+    #testimony-sec .testimony-slider-wrapper::after{
+        transform: translateY(-50%);
+        font-size: 50px;
+    }
+
+    /* ***************************************
+            TESTIMONY SECTION END
+    **************************************** */
+
+    /* ***************************************
+            BLOG SECTION START
+    **************************************** */
+    #blog-sec{
+        margin-top: 30px;
+    }
+
+    #blog-sec .blog-slider .blog-item{
+        padding: 0 1rem;
+    }
+
+    #blog-sec .blog-slider .blog-item img{
+        margin: 0 auto;
+    }
+
+    #blog-sec .content{
+        margin-left: 0%;
+        margin-right: 0%;
+        transform: translateY(-20%);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    #blog-sec .content h3{
+        line-height: 16px;
+    }
+
+    #blog-sec .blog-slider .slick-arrow{
+        top: calc(100%);
+    }
+
+    #blog-sec .blog-slider  .slick-arrow.prev-btn{
+        text-align: end;
+        left: 45%;
+        transform: translateX(-50%);
+    }
+
+    #blog-sec .blog-slider  .slick-arrow.next-btn{
+        text-align: start;
+        right: 45%;
+        transform: translateX(50%);
+    }
+
+    /* ***************************************
+            BLOG SECTION END
+    **************************************** */
+
+    /* ***************************************
+            ABOUT SECTION START
+    **************************************** */
+    #about-sec{
+        padding-top: 30px;
+        overflow-x: hidden;
+    }
+
+    #about-sec .row + .row{
+        padding-top: 50px;
+    }
+    /* ***************************************
+            ABOUT SECTION END
+    **************************************** */
+
+    /* ***************************************
+            FEATURES SECTION START
+    **************************************** */
+    #feature-sec{
+        margin-top: 30px;
+    }
+
+    #feature-sec .feature{
+        margin-top: 15px;
+        box-shadow: 0px 0px 1px 1px rgba(0,0,0,1);
+    }
+
+    /* #feature-sec .feature-wrapper{
+        overflow-x: hidden;
+    } */
+    /* ***************************************
+            FEATURES SECTION END
+    **************************************** */
+
+    /* ***************************************
+            SERVICE SECTION START
+    **************************************** */
+    #service-sec .service-wrapper .service{
+        padding: 20px 20px;
+    }
+
+    #service-sec .service-wrapper .service h3{
+        margin: 12px 0 8px;
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    #service-sec .service-wrapper .service p{
+        line-height: 28px;
+    }
+    /* ***************************************
+            SERVICE SECTION END
+    **************************************** */
+
+    /* ***************************************
+            PROCESS SECTION START
+    **************************************** */
+    #process-sec{
+        margin-top: 40px;
+        padding: 15px 0;
+    }
+
+    #process-sec .process{
+        background-color: rgba(255, 255, 255, 0.60);
+        padding: 10px 15px;
+        margin-top: 10px;
+    }
+
+    #process-sec .process .serial{
+        line-height: 60px;
+        margin-bottom: 0px;
+    }
+
+    #process-sec .process h4{
+        margin-bottom: 5px;
+        line-height: 25px;
+    }
+
+    #process-sec .process p{
+        line-height: 16px;
+    }
+
+    /* ***************************************
+            PROCESS SECTION END
+    **************************************** */
+
+    /* ***************************************
+        GALLERY SECTION START
+    **************************************** */
+    #gallery-sec .gallery-item h4{
+        font-size: 18px;
+        line-height: 28px;
+        margin-top: 8px;
+    }
+    /* ***************************************
+            GALLERY SECTION END
+    **************************************** */
+
+    /* ***************************************
+            SHOWCASE SECTION START
+    **************************************** */
+    #showcase-sec{
+        margin-top: 30px;
+    }
+    /* ***************************************
+            SHOWCASE SECTION END
+    **************************************** */
+
+    /* ***************************************
+        BLOG-ARCHIVE SECTION START
+    **************************************** */
+    #blgo-archive-sec .blog-wrapper h3, #blgo-archive-sec .blog-wrapper.blog-focus  h3{
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    #blgo-archive-sec .blog-wrapper p.text{
+        display: none;
+    }
+
+    #blgo-archive-sec .blog-wrapper .content:not(#blgo-archive-sec .blog-focus .content){
+        padding: 10px;
+    }
+
+    /* ***************************************
+            BLOG-ARCHIVE SECTION END
+    **************************************** */
+    
+}
+
